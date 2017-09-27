@@ -1,0 +1,265 @@
+/* */
+@font-face { 
+  font-family: 'futura-pt';
+  src: url('../fonts/Futura-lt-light.ttf') format('truetype'); 
+}
+
+/*icon*/
+@font-face {
+      font-family: 'fontello-social';
+      src: url('../fonts/fontello.eot?76956149');
+      src: url('../fonts/fontello.eot?76956149#iefix') format('embedded-opentype'),
+           url('../fonts/fontello.woff?76956149') format('woff'),
+           url('../fonts/fontello.ttf?76956149') format('truetype'),
+           url('../fonts/fontello.svg?76956149#fontello') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+     
+    .social-icon
+    {
+      font-family: "fontello-social";
+      font-style: normal;
+      font-weight: normal;
+      speak: none;
+     
+      display: inline-block;
+      text-decoration: inherit;
+      width: 1em;
+      margin-right: .2em;
+      text-align: center;
+      /* opacity: .8; */
+     
+      /* For safety - reset parent styles, that can break glyph codes*/
+      font-variant: normal;
+      text-transform: none;
+     
+      /* fix buttons height, for twitter bootstrap */
+      line-height: 1em;
+     
+      /* Animation center compensation - margins should be symmetric */
+      /* remove if not needed */
+      margin-left: .2em;
+     
+      /* You can be more comfortable with increased icons size */
+      /* font-size: 120%; */
+     
+      /* Font smoothing. That was taken from TWBS */
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+     
+      /* Uncomment for 3D effect */
+      /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+    }
+
+
+footer .icons-container a {
+    padding: 0 5px;
+    display: inline-block;
+    font-size: 16px;
+    color: rgba(31, 31, 31, 0.67);
+}
+
+/* //css sticky footer */
+html, body{
+  height: 100%;
+  margin:0;
+  padding:0;
+}
+
+body {
+  font-family: 'futura-pt',helvetica, arial, sans-serif;
+  min-height: 100%;
+}
+
+#content-wrapper {
+  min-height: 100%; height: auto !important; 
+  height: 100%;
+  margin: 0 auto -40px;
+}
+
+.push-footer,
+ footer {
+    height: 40px;
+    clear:both;
+}
+
+.container .push, footer {
+          height: 60px;
+          clear:both;
+          text-align: center;
+ }
+
+
+/* nav header */
+a { color: #1f1f1f;font-family: "futura-pt", "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;}
+a:focus, a:hover{text-decoration: none;color:inherit;}
+
+.navbar-default {background-color:#ffffff;border:none;}
+  
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    background-color: #fff;
+    color: #000;
+}
+
+.navbar-default  a {
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1em;
+    color: #515252;
+}
+
+.navbar-default  .navbar-brand > a {
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 2px;
+    letter-spacing: 1.4px;
+    font-style: normal;
+    color: #000;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    background-color: #fff;
+    color: #000;
+}
+
+
+.navbar-default .navbar-toggle:hover, 
+.navbar-default .navbar-toggle:focus {
+    background-color: white; 
+}
+
+/* nav header  mobile */
+.navbar-default .navbar-toggle {border:none;}
+
+.navbar-default button:active,
+.navbar-default button:focus {
+    border-style: none;
+    outline:none;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #515252;
+    border: 1px solid transparent;
+}
+
+.cross-rotate {
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+     transition-duration: 1s;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+     transition-property: transform;
+}
+
+.cross-rotate.active {
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+     transform: rotate(90deg);
+}
+
+
+/* blog content  */
+article   *, .article *,#tag_cloud {
+ font-family: "futura-pt", "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.article .article-header {
+    text-align:center;
+      margin:.6em 0 1em;
+      font-size: 1.5em;
+    }
+
+   .article .article-header .header-title {
+          margin: .15em 0 .25em;
+    }
+
+
+  .article .article-header .header-category a,
+  .article .article-header .header-dateline {
+    color: rgba(31,31,31,.5);font-family: "futura-pt";
+  }
+
+
+
+.article  .article-body,
+ .article  .article-summary{
+    font: 300 1.5em/1.8 "futura-pt", "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+  }
+    .article  .article-body img {
+        display:block;
+    }
+
+.article > .article-footer  {
+  margin: 1em 0 2em;
+}
+
+ .article > .article-footer a {
+    color: rgba(31,31,31, .5);
+    text-decoration: none;
+    font-size: 1.5em;
+    line-height: 1.8em;
+  }
+
+.article > .article-footer a:before {
+    content: "Read More";
+}
+
+ .article > .article-footer a:after {
+    content: " \279D";
+    font: normal .9em sans-serif;
+    color:rgba(31, 31, 31, .45);
+}
+
+/* nav footer  */
+ .pagination a  {
+    display: block;
+    color: rgba(31,31,31,.5);
+}
+
+.pagination.pull-right {
+  text-align: right;
+}
+
+
+//archive-list
+ul.listing { margin-top: 1em; }
+ul.listing li {
+    font-size: 1.4em;
+    list-style-type: none;
+    padding: 0; 
+}
+ul.listing li.listing-item a, 
+ul.listing li.listing-item header #header h1 a, 
+header #header h1 ul.listing li.listing-item a {
+      padding: .2em 0 .2em 2em; 
+}
+
+ul.listing li.listing-item time {
+      color: #999; 
+}
+ul.listing li.listing-item:hover {
+      background-color: #f9f9f9; 
+}
+ul.listing li.listing-seperator {
+      font-family: telexregular, Hiragino Sans GB, Microsoft YaHei, sans-serif; 
+}
+ul.listing li.listing-seperator:before {
+        content: "⭠ ";
+        color: #ccc; 
+}

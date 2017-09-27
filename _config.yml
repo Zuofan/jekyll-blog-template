@@ -1,0 +1,42 @@
+markdown: rdiscount
+highlighter: pygments
+permalink: /:year/:month/:day/:title.html
+name: "us&#39;"
+markdown: rdiscount
+rdiscount:
+    extensions:
+      - generate_toc
+      - footnotes
+      - smart 
+    toc_token: "@TOC"
+
+author: "lao&#39; ji"
+atom-baseurl: "http://blog.zxfamily.site"
+disqus: "gopherwood"
+
+excerpt_separator: "<!--more-->"
+
+plugins:
+  - jekyll-gallery-generator
+
+
+navigations:
+  - title: Archive
+    class: fa fa-list-ul
+    href: /archive.html
+  - title: Tags
+    class: fa fa-tags
+    href: /tags.html
+  - title: About
+    class: fa fa-user
+    href: /about.html
+  - title: Subscribe
+    class: fa fa-rss
+    href: /atom.xml
+
+#social
+qq: "http://wpa.qq.com/msgrd?v=3&uin=331660522&site=qq&menu=yes"
+weibo: "http://blog.zxfamily.site"
+wechat: "微信号:elephant_crossing"
+linkedin: "https://www.linkedin.com/in/%E9%9C%87%E5%AE%87-%E5%AD%A3-824622b4/"
+github: "https://github.com/Zuofan"
