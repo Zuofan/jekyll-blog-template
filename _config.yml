@@ -16,8 +16,7 @@ disqus: "gopherwood"
 
 excerpt_separator: "<!--more-->"
 
-plugins:
-  - jekyll-gallery-generator
+
 
 
 navigations:
