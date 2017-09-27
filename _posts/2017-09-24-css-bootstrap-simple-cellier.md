@@ -34,10 +34,10 @@ Blog的文章页面会依据是否有图，调整样式，我觉得有些拖沓�
 主要修改Bootstrap默认的页头样式，看一下页头修改的前后对比图片。
 
 修改之前的：
-![css-simple-index-header-old](/media/files/2017/css-simple-index-header-old.png)
+![css-simple-index-header-old]({{ site.siteurl }}/media/files/2017/css-simple-index-header-old.png)
 
 修改之后的：
-![css-simple-index-header-new](/media/files/2017/css-simple-index-header-new.png)
+![css-simple-index-header-new]({{ site.siteurl }}/media/files/2017/css-simple-index-header-new.png)
 
 嗯，看起来，好像修改之前的比修改之后的好看，这主要是因为截图的分辨率的问题。
 
@@ -87,11 +87,11 @@ Blog的文章页面会依据是否有图，调整样式，我觉得有些拖沓�
 
 	修改之前的：
 
-	![css-simple-index-header-mobile-old](/media/files/2017/css-simple-index-header-mobile-old.png)
+	![css-simple-index-header-mobile-old]({{ site.siteurl }}/media/files/2017/css-simple-index-header-mobile-old.png)
 
 	修改之后的：
 	
-	![css-simple-index-header-mobile-new](/media/files/2017/css-simple-index-header-mobile-new.png)
+	![css-simple-index-header-mobile-new]({{ site.siteurl }}/media/files/2017/css-simple-index-header-mobile-new.png)
 
 	下面是移动端的修改样式：
 
@@ -155,7 +155,7 @@ Blog的文章页面会依据是否有图，调整样式，我觉得有些拖沓�
 
 ### 文章列表
 文章列表主要在3个地方应用CSS规则，如下图所示：
-![css-simple-index-content](/media/files/2017/css-simple-index-content.png)
+![css-simple-index-content]({{ site.siteurl }}/media/files/2017/css-simple-index-content.png)
 
 下面我们看一下具体的CSS规则，主要分为article-header、article-body、article-footer。
 

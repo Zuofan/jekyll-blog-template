@@ -16,8 +16,8 @@ disqus: "gopherwood"
 
 excerpt_separator: "<!--more-->"
 
-plugins:
-  - jekyll-gallery-generator
+#plugins:
+#  - jekyll-gallery-generator
 
 
 navigations:
@@ -40,3 +40,6 @@ weibo: "http://blog.zxfamily.site"
 wechat: "微信号:elephant_crossing"
 linkedin: "https://www.linkedin.com/in/%E9%9C%87%E5%AE%87-%E5%AD%A3-824622b4/"
 github: "https://github.com/Zuofan"
+
+
+siteurl: "https://zuofan.github.io/jekyll-blog-template/"
