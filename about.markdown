@@ -6,7 +6,7 @@ layout: page
 
 <h2> a </h2> 
 
-> weber | unixer | coder
+> weber &#166; unixer &#166; coder
 
 
 <h2> mail</h2> 
