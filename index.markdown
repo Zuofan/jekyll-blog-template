@@ -13,13 +13,13 @@ layout: default
         {% if post.tags %}
             <div class="header-category">
                   {% for tag in post.tags limit: 1%}
-                        <a  href="/tags.html#{{ tag }}" title="{{ tag }}">{{  tag |capitalize  }}</a>                 
+                        <a  href="{{ site.siteurl }}/tags.html#{{ tag }}" title="{{ tag }}">{{  tag |capitalize  }}</a>                 
                 {% endfor %}
             </div>
         {% endif %}
 
         <h2 class="header-title">
-            <a href="{{ post.url }}">{{ post.title }}</a>
+            <a href="{{ site.siteurl }}/{{ post.url }}">{{ post.title }}</a>
         </h2>
 
         <div class="header-dateline">
@@ -30,7 +30,7 @@ layout: default
     <div class="article-summary">
         <p> {{ post.excerpt }}</p>
     </div>
-    <div class="article-footer"><a href="{{ post.url }}"></a></div>
+    <div class="article-footer"><a href="{{ site.siteurl }}/{{ post.url }}"></a></div>
 </article>
 
 </div>
