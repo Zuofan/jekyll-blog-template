@@ -21,16 +21,16 @@ excerpt_separator: "<!--more-->"
 navigations:
   - title: Archive
     class: fa fa-list-ul
-    href: /archive.html
+    href: /jekyll-blog-template/archive.html
   - title: Tags
     class: fa fa-tags
-    href: /tags.html
+    href: /jekyll-blog-template/tags.html
   - title: About
     class: fa fa-user
-    href: /about.html
+    href: /jekyll-blog-template/about.html
   - title: Subscribe
     class: fa fa-rss
-    href: /atom.xml
+    href: /jekyll-blog-template/atom.xml
 
 #social
 qq: "http://wpa.qq.com/msgrd?v=3&uin=331660522&site=qq&menu=yes"
